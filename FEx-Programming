@@ -1,0 +1,146 @@
+package main;
+
+import java.util.Scanner;
+public class NewClass
+{
+    class Main
+    public static void main(String[] args)
+    {
+       Scanner sc = new Scanner(System.in);
+        String Letters;
+        int New[] = new int [500];
+        System.out.println("Enter Word: ");
+        Letters = sc.nextLine();
+        char[] arr = Letters.toCharArray();
+        for(int i=0; i<arr.length; i++){
+        char GO = arr[i];
+        switch(GO){
+        case 'a':
+        case 'A':
+            New[i] = 1;
+            break;
+        case 'b':
+        case 'B':
+            New[i] = 2;
+            break;
+        case 'c':
+        case 'C':
+            New[i] = 3;
+            break;
+        case 'd':
+        case 'D':
+            New[i] = 4;
+            break;
+        case 'e':
+        case 'E':
+            New[i] = 5;
+            break;
+        case 'f':
+        case 'F':
+            New[i] = 6;
+            break;
+        case 'g':
+        case 'G':
+            New[i] = 7;
+            break;            
+        case 'h':
+        case 'H':
+            New[i] = 8;
+            break;
+        case 'i':
+        case 'I':
+            New[i] = 9;
+            break;            
+        case 'j':
+        case 'J':
+            New[i] = 10;
+            break;            
+        case 'k':
+        case 'K':
+            New[i] = 11;
+            break;            
+        case 'l':
+        case 'L':
+            New[i] = 12;
+            break;            
+        case 'm':
+        case 'M':
+            New[i] = 13;
+            break;            
+        case 'n':
+        case 'N':
+            New[i] = 14;
+            break;            
+        case 'o':
+        case 'O':
+            New[i] = 15;
+            break;            
+        case 'p':
+        case 'P':
+            New[i] = 16;
+            break;            
+        case 'q':
+        case 'Q':
+            New[i] = 17;
+            break;            
+        case 'r':
+        case 'R':
+            New[i] = 18;
+            break;            
+        case 's':
+        case 'S':
+            New[i] = 19;
+            break;            
+        case 't':
+        case 'T':
+            New[i] = 20;
+            break;            
+        case 'u':
+        case 'U':
+            New[i] = 21;
+            break;            
+        case 'v':
+        case 'V':
+            New[i] = 22;
+            break;            
+        case 'w':
+        case 'W':
+            New[i] = 23;
+            break;            
+        case 'x':
+        case 'X':
+            New[i] = 24;
+            break;            
+        case 'y':
+        case 'Y':
+            New[i] = 25;
+            break;            
+        case 'z':
+        case 'Z':
+            New[i] = 26;
+            break;            
+        case ' ':
+            New[i] = 30;
+            break;            
+        case ',':
+            New[i] = 40;
+            break;            
+        case '!':
+            New[i] = 50;
+            break;            
+        case '?':
+            New[i] = 60;
+            break;            
+        case '(':
+            New[i] = 70;
+            break;            
+        case ')':
+            New[i] = 80;
+            break; 
+           
+           
+    }
+        System.out.print(New[i]+" ");
+            
+        }
+    }
